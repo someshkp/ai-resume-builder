@@ -1,7 +1,7 @@
 ## 🌐 Live Demo & Deployment
 
 **Live Application:**
-🔗 https://ai-resume-builders-1sbbjiosy-someshkps-projects.vercel.app/login
+🔗 https://ai-resume-builders-kj5h60khh-someshkps-projects.vercel.app/login
 
 ### Deployment Architecture
 
