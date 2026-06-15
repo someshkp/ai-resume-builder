@@ -1,0 +1,24 @@
+.button {
+  border: none;
+  outline: none;
+  padding-inline: 1rem;
+  padding-block: 0.7rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &.primary-button {
+    background-color: #e1034d;
+    color: #fff;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.secondary-button {
+    background-color: #6c757d;
+    color: #fff;
+  }
+}
