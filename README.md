@@ -1,3 +1,48 @@
+## 🌐 Live Demo & Deployment
+
+**Live Application:**
+🔗 https://ai-resume-builders-1sbbjiosy-someshkps-projects.vercel.app/login
+
+### Deployment Architecture
+
+The application is deployed using separate services for the frontend and backend:
+
+* **Frontend:** Hosted on **Vercel**
+* **Backend:** Hosted on **Render**
+* **Database:** MongoDB Atlas
+
+```text
+Frontend (React + Vite)
+        │
+        ▼
+      Vercel
+        │
+ REST API Calls
+        │
+        ▼
+ Backend (Node.js + Express)
+        │
+        ▼
+      Render
+        │
+        ▼
+   MongoDB Atlas
+```
+
+### Production Stack
+
+| Layer          | Technology              | Hosting         |
+| :------------- | :---------------------- | :-------------- |
+| Frontend       | React 19 + Vite + Sass  | Vercel          |
+| Backend        | Node.js + Express       | Render          |
+| Database       | MongoDB + Mongoose      | MongoDB Atlas   |
+| AI Models      | Gemini API, Groq API    | External APIs   |
+| PDF Generation | Puppeteer               | Backend Service |
+| Authentication | JWT + HTTP-only Cookies | Backend         |
+
+The frontend and backend are maintained within a single monorepo and deployed independently, enabling easier development and scalable production deployments.
+
+
 # AI Resume Builder & Interview Prep Assistant
 
 An AI-powered web application that helps job seekers align their resumes with job descriptions, receive targeted technical and behavioral preparation advice, identify skill gaps, and generate customized, high-quality resumes tailored for specific roles.
